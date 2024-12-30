@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}let x = foo(10,20);console.log(x); //this will give you 30 as output. But if you call this function as foo(10,"20") it will give you "1020" as output which is string concatenation. This is not always a good thing.
