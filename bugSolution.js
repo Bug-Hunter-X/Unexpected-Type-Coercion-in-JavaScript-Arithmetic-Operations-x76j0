@@ -1,0 +1,1 @@
+function foo(a,b){a = Number(a); b = Number(b); return a+b;}let x = foo(10,"20");console.log(x); //this will give you 30 as output.
